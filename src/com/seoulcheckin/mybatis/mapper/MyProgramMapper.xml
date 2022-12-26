@@ -10,5 +10,8 @@
 		select count(member_number) from tbl_myprogram where school_number = #{schoolNumber};
 	</select>
 	
-
+	<insert id="insert" parameterType="myProgramVO">
+		insert into tbl_myprogram(member_number, school_number)
+		values(#{memberNumber}, #{schoolNumber});
+	</insert>
 </mapper>
