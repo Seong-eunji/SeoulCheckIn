@@ -21,4 +21,8 @@ public class MyProgramDAO {
 		return sqlSession.selectOne("MyProgram.classLimitCount", schoolNumber);
 	}
 	
+	public void insert(MyProgramDTO myprogramDTO) {
+		return sqlSession.insert("MyProgram.insert", myprogramDTO);
+	}
+	
 }
