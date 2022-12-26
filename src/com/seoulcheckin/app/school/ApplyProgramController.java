@@ -15,8 +15,8 @@ public class ApplyProgramController implements Execute{
 	@Override
 	public Result execute(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		
-		SchoolDAO schoolDAO = new SchoolDAO();
-		SchoolDTO schoolDTO = new SchoolDTO();
+		MyProgramDAO myProgramDAO = new MyProgramDAO();
+		MyProgramVO myProgramVO = new MyProgramVO();
 		System.out.println("넘버");
 //		System.out.println(req.getParameter("schoolNumber"));
 		System.out.println(req.getParameter("memberNumber"));
@@ -26,11 +26,10 @@ public class ApplyProgramController implements Execute{
 		String schoolName = req.getParameter("schoolName");
 		int memberNumber = Integer.valueOf(req.getParameter("memberNumber"));
 		
-		schoolDTO.setSchoolNumber(schoolNumber);
-		schoolDTO.setSchoolName(schoolName);
-		schoolDTO.setMemberNumber(memberNumber);
+		myProgramVO.setSchoolNumber(schoolNumber);
+		myProgramVO.setMemberNumber(memberNumber);
 		
-		schoolDAO.insert(schoolDTO);
+		myProgramDAO.insert(myProgramVO);
 		
 		
 		return null;
