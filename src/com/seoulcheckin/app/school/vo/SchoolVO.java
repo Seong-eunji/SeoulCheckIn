@@ -13,7 +13,6 @@ public class SchoolVO {
 	private String schoolPhoto;
 	private int schoolLimitCount;
 	private String schoolStatus;
-	private int memberNumber;
 	
 	public SchoolVO() {;}
 
@@ -113,21 +112,12 @@ public class SchoolVO {
 		this.schoolStatus = schoolStatus;
 	}
 
-	public int getMemberNumber() {
-		return memberNumber;
-	}
-
-	public void setMemberNumber(int memberNumber) {
-		this.memberNumber = memberNumber;
-	}
-
 	@Override
 	public String toString() {
 		return "SchoolVO [schoolNumber=" + schoolNumber + ", schoolName=" + schoolName + ", schoolTeacherName="
 				+ schoolTeacherName + ", schoolPhone=" + schoolPhone + ", schoolAddress=" + schoolAddress
 				+ ", schoolTime=" + schoolTime + ", schoolIntroduce=" + schoolIntroduce + ", schoolOpeningDate="
 				+ schoolOpeningDate + ", schoolClosingDate=" + schoolClosingDate + ", schoolPhoto=" + schoolPhoto
-				+ ", schoolLimitCount=" + schoolLimitCount + ", schoolStatus=" + schoolStatus + ", memberNumber="
-				+ memberNumber + "]";
+				+ ", schoolLimitCount=" + schoolLimitCount + ", schoolStatus=" + schoolStatus + "]";
 	}
 }
