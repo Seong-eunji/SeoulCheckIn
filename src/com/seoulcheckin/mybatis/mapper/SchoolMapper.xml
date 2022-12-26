@@ -11,7 +11,7 @@
 	<select id="selectAll" resultType="schoolVO">
 		select school_number, school_name, school_teacher_name, school_phone, school_address, school_time, school_introduce, 
 		school_opening_date, school_closing_date, school_photo, school_limit_count, school_status, member_number
-		from tbl_school;
+		from tbl_school
 	</select>
 	
 	<select id="selectCount" resultType="_int">
@@ -22,7 +22,7 @@
 		select school_number, school_name, school_teacher_name, school_phone, school_address, school_time, school_introduce, 
 		school_opening_date, school_closing_date, school_photo, school_limit_count, school_status, member_number
 		from tbl_school
-		where school_number = #{schoolNumber};
+		where school_number = #{schoolNumber}
 	</select>
 
 	<delete id="deleteProgram" parameterType="_int">
@@ -37,6 +37,6 @@
 	<update id="update" parameterType="schoolVO">
 		update tbl_school
 		set school_name= ${schoolName}, school_teacher_name= ${schoolTeacherName}, school_phone= ${schoolPhone}, school_address= ${schoolAddress}, school_time= ${schoolTime}, school_introduce= ${schoolIntroduce}, school_opening_date= ${schoolOpeningDate}, school_closing_date= ${schoolClosingDate}, school_photo= ${schoolPhoto}, school_limit_count= ${schoolLimitCount}
-		where school_number= #{schoolNumber};
+		where school_number= #{schoolNumber}
 	</update>
 </mapper>
