@@ -6,6 +6,9 @@ JSP 프로젝트 [서울체크인]
 ## 📌 사용기술
 ### Java / JSP / MyBatis / MySQL DB / HTML / CSS / Javascript / jQuery / ajax
 
+## 
+![서울체크인 ERD](https://user-images.githubusercontent.com/114063255/209525747-536c57a4-531e-406b-99ca-5611eb75b6d8.png)
+
 
 ## 📌 담당 업무
 ✔ DB 및 Back-end 설계<br>
