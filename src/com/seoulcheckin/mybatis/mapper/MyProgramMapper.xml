@@ -3,15 +3,15 @@
 
 <mapper namespace="MyProgram">
 	<select id="myClassCount" parameterType="_int" resultType="_int">
-		select count(school_number) from tbl_myprogram where member_number = #{memberNumber};
+		select count(school_number) from tbl_myprogram where member_number = #{memberNumber}
 	</select>
 	
 	<select id="classLimitCount" parameterType="_int" resultType="_int">
-		select count(member_number) from tbl_myprogram where school_number = #{schoolNumber};
+		select count(member_number) from tbl_myprogram where school_number = #{schoolNumber}
 	</select>
 	
 	<insert id="insert" parameterType="myProgramVO">
 		insert into tbl_myprogram(member_number, school_number)
-		values(#{memberNumber}, #{schoolNumber});
+		values(#{memberNumber}, #{schoolNumber})
 	</insert>
 </mapper>
