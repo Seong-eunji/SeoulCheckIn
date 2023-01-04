@@ -44,7 +44,7 @@
 
 
 ## 📌 사용기술
-- Java 11
+- Java
 - JSP
 - JDK 11
 - Tomcat ver. 9
