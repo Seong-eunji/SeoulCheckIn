@@ -44,6 +44,7 @@
 ## 📌 사용기술
 - Java
 - JSP
+- JSTL
 - JDK 11
 - Tomcat ver. 9
 - MyBatis ver. 3.5.10
