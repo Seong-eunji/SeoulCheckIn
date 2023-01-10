@@ -23,7 +23,7 @@
 
 
 ## 📌 담당 업무
-#### • DB 및 Back-end 설계를 맡았습니다.
+#### • DB 구축 및 Back-end 설계를 맡았습니다.
     + DB Table, PK 및 FK 관계 설계 및 무결성에 대한 이해
     + FrontController, Controller, DAO, VO의 MVC 패턴 설계
 
@@ -31,16 +31,14 @@
     + Javascript를 이용하여 구현
     + Tocken 및 Callback에 대한 이해
     
-#### • 로그인 및 회원가입 Back-end 구현을 맡았습니다.
-    + Session과 Local에 대한 이해
-    + CoolSMS API를 이용하여 문자 전송을 통한 휴대폰 인증 구현
-    
-#### • 관리자 페이지 Back-end 구현을 맡았습니다.
-    + 모든 서비스의 CRUD 서비스 구현
-    
-#### • 프로그램 Publishing을 맡았습니다.
-#### • 커뮤니티 Publishing을 맡았습니다.
-#### • 관리자 페이지 Publishing을 맡았습니다.
+#### • 전화번호 인증 구현을 위해서 CoolSMS API를 이용했습니다.
+
+#### • Thymeleaf와 페이지 이동 방식, 그리고 ajax를 이용하여 Back-end를 구현했습니다.
+    + 로그인 및 회원가입
+    + 관리자 페이지
+
+#### • HTML, CSS, Javascript, jQuery를 이용하여 Publishing했습니다.
+    + 서울을 즐겨볼래(프로그램), 커뮤니티, 관리자 페이지
 
 
 ## 📌 사용기술
